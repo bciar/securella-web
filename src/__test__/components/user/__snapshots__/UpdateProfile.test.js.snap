@@ -1,0 +1,1235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render UpdateProfile page correctly when the loaded state is true 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UpdateProfile
+    history={
+        Object {
+            "push": [Function],
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Paper
+        circle={false}
+        className="common-paper"
+        rounded={true}
+        style={
+                Object {
+                        "marginTop": "0px",
+                      }
+        }
+        transitionEnabled={true}
+        zDepth={1}
+>
+        <ValidatorForm
+                onError={[Function]}
+                onSubmit={[Function]}
+        >
+                <h2>
+                        Update your account
+                </h2>
+                <h3
+                        className="hidden"
+                        id="errorLabel"
+                >
+                        Please fix the shown errors
+                </h3>
+                <TextValidator
+                        errorMessages="error"
+                        floatingLabelText="Vorname"
+                        id="firstname"
+                        name="firstname"
+                        onChange={[Function]}
+                        validatorListener={[Function]}
+                        validators={Array []}
+                        value={undefined}
+                />
+                <br />
+                <TextValidator
+                        errorMessages="error"
+                        floatingLabelText="Nachname"
+                        id="lastname"
+                        name="lastname"
+                        onChange={[Function]}
+                        validatorListener={[Function]}
+                        validators={Array []}
+                        value={undefined}
+                />
+                <br />
+                <TextValidator
+                        errorMessages="error"
+                        floatingLabelText="Address"
+                        id="address"
+                        name="address"
+                        onChange={[Function]}
+                        validatorListener={[Function]}
+                        validators={Array []}
+                        value={undefined}
+                />
+                <br />
+                <TextValidator
+                        errorMessages="error"
+                        floatingLabelText="Postal Code"
+                        id="postal_code"
+                        name="postal_code"
+                        onChange={[Function]}
+                        validatorListener={[Function]}
+                        validators={Array []}
+                        value={undefined}
+                />
+                <br />
+                <TextValidator
+                        errorMessages="error"
+                        floatingLabelText="City"
+                        id="city"
+                        name="city"
+                        onChange={[Function]}
+                        validatorListener={[Function]}
+                        validators={Array []}
+                        value={undefined}
+                />
+                <br />
+                <TextValidator
+                        errorMessages="error"
+                        floatingLabelText="Age"
+                        id="age"
+                        name="age"
+                        onChange={[Function]}
+                        validatorListener={[Function]}
+                        validators={Array []}
+                        value={undefined}
+                />
+                <br />
+                <TextValidator
+                        errorMessages="error"
+                        floatingLabelText="Gender"
+                        id="gender"
+                        name="gender"
+                        onChange={[Function]}
+                        validatorListener={[Function]}
+                        validators={Array []}
+                        value={undefined}
+                />
+                <br />
+                <RaisedButton
+                        disabled={false}
+                        fullWidth={false}
+                        label="Account updaten"
+                        labelPosition="after"
+                        primary={false}
+                        secondary={false}
+                        style={
+                                Object {
+                                        "marginBottom": "10px",
+                                        "marginTop": "50px",
+                                      }
+                        }
+                        type="submit"
+                />
+        </ValidatorForm>
+</Paper>,
+      "className": "container",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ValidatorForm
+          onError={[Function]}
+          onSubmit={[Function]}
+>
+          <h2>
+                    Update your account
+          </h2>
+          <h3
+                    className="hidden"
+                    id="errorLabel"
+          >
+                    Please fix the shown errors
+          </h3>
+          <TextValidator
+                    errorMessages="error"
+                    floatingLabelText="Vorname"
+                    id="firstname"
+                    name="firstname"
+                    onChange={[Function]}
+                    validatorListener={[Function]}
+                    validators={Array []}
+                    value={undefined}
+          />
+          <br />
+          <TextValidator
+                    errorMessages="error"
+                    floatingLabelText="Nachname"
+                    id="lastname"
+                    name="lastname"
+                    onChange={[Function]}
+                    validatorListener={[Function]}
+                    validators={Array []}
+                    value={undefined}
+          />
+          <br />
+          <TextValidator
+                    errorMessages="error"
+                    floatingLabelText="Address"
+                    id="address"
+                    name="address"
+                    onChange={[Function]}
+                    validatorListener={[Function]}
+                    validators={Array []}
+                    value={undefined}
+          />
+          <br />
+          <TextValidator
+                    errorMessages="error"
+                    floatingLabelText="Postal Code"
+                    id="postal_code"
+                    name="postal_code"
+                    onChange={[Function]}
+                    validatorListener={[Function]}
+                    validators={Array []}
+                    value={undefined}
+          />
+          <br />
+          <TextValidator
+                    errorMessages="error"
+                    floatingLabelText="City"
+                    id="city"
+                    name="city"
+                    onChange={[Function]}
+                    validatorListener={[Function]}
+                    validators={Array []}
+                    value={undefined}
+          />
+          <br />
+          <TextValidator
+                    errorMessages="error"
+                    floatingLabelText="Age"
+                    id="age"
+                    name="age"
+                    onChange={[Function]}
+                    validatorListener={[Function]}
+                    validators={Array []}
+                    value={undefined}
+          />
+          <br />
+          <TextValidator
+                    errorMessages="error"
+                    floatingLabelText="Gender"
+                    id="gender"
+                    name="gender"
+                    onChange={[Function]}
+                    validatorListener={[Function]}
+                    validators={Array []}
+                    value={undefined}
+          />
+          <br />
+          <RaisedButton
+                    disabled={false}
+                    fullWidth={false}
+                    label="Account updaten"
+                    labelPosition="after"
+                    primary={false}
+                    secondary={false}
+                    style={
+                              Object {
+                                        "marginBottom": "10px",
+                                        "marginTop": "50px",
+                                      }
+                    }
+                    type="submit"
+          />
+</ValidatorForm>,
+        "circle": false,
+        "className": "common-paper",
+        "rounded": true,
+        "style": Object {
+          "marginTop": "0px",
+        },
+        "transitionEnabled": true,
+        "zDepth": 1,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <h2>
+              Update your account
+</h2>,
+            <h3
+              className="hidden"
+              id="errorLabel"
+>
+              Please fix the shown errors
+</h3>,
+            <TextValidator
+              errorMessages="error"
+              floatingLabelText="Vorname"
+              id="firstname"
+              name="firstname"
+              onChange={[Function]}
+              validatorListener={[Function]}
+              validators={Array []}
+              value={undefined}
+/>,
+            <br />,
+            <TextValidator
+              errorMessages="error"
+              floatingLabelText="Nachname"
+              id="lastname"
+              name="lastname"
+              onChange={[Function]}
+              validatorListener={[Function]}
+              validators={Array []}
+              value={undefined}
+/>,
+            <br />,
+            <TextValidator
+              errorMessages="error"
+              floatingLabelText="Address"
+              id="address"
+              name="address"
+              onChange={[Function]}
+              validatorListener={[Function]}
+              validators={Array []}
+              value={undefined}
+/>,
+            <br />,
+            <TextValidator
+              errorMessages="error"
+              floatingLabelText="Postal Code"
+              id="postal_code"
+              name="postal_code"
+              onChange={[Function]}
+              validatorListener={[Function]}
+              validators={Array []}
+              value={undefined}
+/>,
+            <br />,
+            <TextValidator
+              errorMessages="error"
+              floatingLabelText="City"
+              id="city"
+              name="city"
+              onChange={[Function]}
+              validatorListener={[Function]}
+              validators={Array []}
+              value={undefined}
+/>,
+            <br />,
+            <TextValidator
+              errorMessages="error"
+              floatingLabelText="Age"
+              id="age"
+              name="age"
+              onChange={[Function]}
+              validatorListener={[Function]}
+              validators={Array []}
+              value={undefined}
+/>,
+            <br />,
+            <TextValidator
+              errorMessages="error"
+              floatingLabelText="Gender"
+              id="gender"
+              name="gender"
+              onChange={[Function]}
+              validatorListener={[Function]}
+              validators={Array []}
+              value={undefined}
+/>,
+            <br />,
+            <RaisedButton
+              disabled={false}
+              fullWidth={false}
+              label="Account updaten"
+              labelPosition="after"
+              primary={false}
+              secondary={false}
+              style={
+                            Object {
+                                          "marginBottom": "10px",
+                                          "marginTop": "50px",
+                                        }
+              }
+              type="submit"
+/>,
+          ],
+          "onError": [Function],
+          "onSubmit": [Function],
+        },
+        "ref": "form",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Update your account",
+            },
+            "ref": null,
+            "rendered": "Update your account",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Please fix the shown errors",
+              "className": "hidden",
+              "id": "errorLabel",
+            },
+            "ref": null,
+            "rendered": "Please fix the shown errors",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "errorMessages": "error",
+              "floatingLabelText": "Vorname",
+              "id": "firstname",
+              "name": "firstname",
+              "onChange": [Function],
+              "validatorListener": [Function],
+              "validators": Array [],
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "errorMessages": "error",
+              "floatingLabelText": "Nachname",
+              "id": "lastname",
+              "name": "lastname",
+              "onChange": [Function],
+              "validatorListener": [Function],
+              "validators": Array [],
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "errorMessages": "error",
+              "floatingLabelText": "Address",
+              "id": "address",
+              "name": "address",
+              "onChange": [Function],
+              "validatorListener": [Function],
+              "validators": Array [],
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "errorMessages": "error",
+              "floatingLabelText": "Postal Code",
+              "id": "postal_code",
+              "name": "postal_code",
+              "onChange": [Function],
+              "validatorListener": [Function],
+              "validators": Array [],
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "errorMessages": "error",
+              "floatingLabelText": "City",
+              "id": "city",
+              "name": "city",
+              "onChange": [Function],
+              "validatorListener": [Function],
+              "validators": Array [],
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "errorMessages": "error",
+              "floatingLabelText": "Age",
+              "id": "age",
+              "name": "age",
+              "onChange": [Function],
+              "validatorListener": [Function],
+              "validators": Array [],
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "errorMessages": "error",
+              "floatingLabelText": "Gender",
+              "id": "gender",
+              "name": "gender",
+              "onChange": [Function],
+              "validatorListener": [Function],
+              "validators": Array [],
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "fullWidth": false,
+              "label": "Account updaten",
+              "labelPosition": "after",
+              "primary": false,
+              "secondary": false,
+              "style": Object {
+                "marginBottom": "10px",
+                "marginTop": "50px",
+              },
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Paper
+          circle={false}
+          className="common-paper"
+          rounded={true}
+          style={
+                    Object {
+                              "marginTop": "0px",
+                            }
+          }
+          transitionEnabled={true}
+          zDepth={1}
+>
+          <ValidatorForm
+                    onError={[Function]}
+                    onSubmit={[Function]}
+          >
+                    <h2>
+                              Update your account
+                    </h2>
+                    <h3
+                              className="hidden"
+                              id="errorLabel"
+                    >
+                              Please fix the shown errors
+                    </h3>
+                    <TextValidator
+                              errorMessages="error"
+                              floatingLabelText="Vorname"
+                              id="firstname"
+                              name="firstname"
+                              onChange={[Function]}
+                              validatorListener={[Function]}
+                              validators={Array []}
+                              value={undefined}
+                    />
+                    <br />
+                    <TextValidator
+                              errorMessages="error"
+                              floatingLabelText="Nachname"
+                              id="lastname"
+                              name="lastname"
+                              onChange={[Function]}
+                              validatorListener={[Function]}
+                              validators={Array []}
+                              value={undefined}
+                    />
+                    <br />
+                    <TextValidator
+                              errorMessages="error"
+                              floatingLabelText="Address"
+                              id="address"
+                              name="address"
+                              onChange={[Function]}
+                              validatorListener={[Function]}
+                              validators={Array []}
+                              value={undefined}
+                    />
+                    <br />
+                    <TextValidator
+                              errorMessages="error"
+                              floatingLabelText="Postal Code"
+                              id="postal_code"
+                              name="postal_code"
+                              onChange={[Function]}
+                              validatorListener={[Function]}
+                              validators={Array []}
+                              value={undefined}
+                    />
+                    <br />
+                    <TextValidator
+                              errorMessages="error"
+                              floatingLabelText="City"
+                              id="city"
+                              name="city"
+                              onChange={[Function]}
+                              validatorListener={[Function]}
+                              validators={Array []}
+                              value={undefined}
+                    />
+                    <br />
+                    <TextValidator
+                              errorMessages="error"
+                              floatingLabelText="Age"
+                              id="age"
+                              name="age"
+                              onChange={[Function]}
+                              validatorListener={[Function]}
+                              validators={Array []}
+                              value={undefined}
+                    />
+                    <br />
+                    <TextValidator
+                              errorMessages="error"
+                              floatingLabelText="Gender"
+                              id="gender"
+                              name="gender"
+                              onChange={[Function]}
+                              validatorListener={[Function]}
+                              validators={Array []}
+                              value={undefined}
+                    />
+                    <br />
+                    <RaisedButton
+                              disabled={false}
+                              fullWidth={false}
+                              label="Account updaten"
+                              labelPosition="after"
+                              primary={false}
+                              secondary={false}
+                              style={
+                                        Object {
+                                                  "marginBottom": "10px",
+                                                  "marginTop": "50px",
+                                                }
+                              }
+                              type="submit"
+                    />
+          </ValidatorForm>
+</Paper>,
+        "className": "container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <ValidatorForm
+            onError={[Function]}
+            onSubmit={[Function]}
+>
+            <h2>
+                        Update your account
+            </h2>
+            <h3
+                        className="hidden"
+                        id="errorLabel"
+            >
+                        Please fix the shown errors
+            </h3>
+            <TextValidator
+                        errorMessages="error"
+                        floatingLabelText="Vorname"
+                        id="firstname"
+                        name="firstname"
+                        onChange={[Function]}
+                        validatorListener={[Function]}
+                        validators={Array []}
+                        value={undefined}
+            />
+            <br />
+            <TextValidator
+                        errorMessages="error"
+                        floatingLabelText="Nachname"
+                        id="lastname"
+                        name="lastname"
+                        onChange={[Function]}
+                        validatorListener={[Function]}
+                        validators={Array []}
+                        value={undefined}
+            />
+            <br />
+            <TextValidator
+                        errorMessages="error"
+                        floatingLabelText="Address"
+                        id="address"
+                        name="address"
+                        onChange={[Function]}
+                        validatorListener={[Function]}
+                        validators={Array []}
+                        value={undefined}
+            />
+            <br />
+            <TextValidator
+                        errorMessages="error"
+                        floatingLabelText="Postal Code"
+                        id="postal_code"
+                        name="postal_code"
+                        onChange={[Function]}
+                        validatorListener={[Function]}
+                        validators={Array []}
+                        value={undefined}
+            />
+            <br />
+            <TextValidator
+                        errorMessages="error"
+                        floatingLabelText="City"
+                        id="city"
+                        name="city"
+                        onChange={[Function]}
+                        validatorListener={[Function]}
+                        validators={Array []}
+                        value={undefined}
+            />
+            <br />
+            <TextValidator
+                        errorMessages="error"
+                        floatingLabelText="Age"
+                        id="age"
+                        name="age"
+                        onChange={[Function]}
+                        validatorListener={[Function]}
+                        validators={Array []}
+                        value={undefined}
+            />
+            <br />
+            <TextValidator
+                        errorMessages="error"
+                        floatingLabelText="Gender"
+                        id="gender"
+                        name="gender"
+                        onChange={[Function]}
+                        validatorListener={[Function]}
+                        validators={Array []}
+                        value={undefined}
+            />
+            <br />
+            <RaisedButton
+                        disabled={false}
+                        fullWidth={false}
+                        label="Account updaten"
+                        labelPosition="after"
+                        primary={false}
+                        secondary={false}
+                        style={
+                                    Object {
+                                                "marginBottom": "10px",
+                                                "marginTop": "50px",
+                                              }
+                        }
+                        type="submit"
+            />
+</ValidatorForm>,
+          "circle": false,
+          "className": "common-paper",
+          "rounded": true,
+          "style": Object {
+            "marginTop": "0px",
+          },
+          "transitionEnabled": true,
+          "zDepth": 1,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Update your account
+</h2>,
+              <h3
+                className="hidden"
+                id="errorLabel"
+>
+                Please fix the shown errors
+</h3>,
+              <TextValidator
+                errorMessages="error"
+                floatingLabelText="Vorname"
+                id="firstname"
+                name="firstname"
+                onChange={[Function]}
+                validatorListener={[Function]}
+                validators={Array []}
+                value={undefined}
+/>,
+              <br />,
+              <TextValidator
+                errorMessages="error"
+                floatingLabelText="Nachname"
+                id="lastname"
+                name="lastname"
+                onChange={[Function]}
+                validatorListener={[Function]}
+                validators={Array []}
+                value={undefined}
+/>,
+              <br />,
+              <TextValidator
+                errorMessages="error"
+                floatingLabelText="Address"
+                id="address"
+                name="address"
+                onChange={[Function]}
+                validatorListener={[Function]}
+                validators={Array []}
+                value={undefined}
+/>,
+              <br />,
+              <TextValidator
+                errorMessages="error"
+                floatingLabelText="Postal Code"
+                id="postal_code"
+                name="postal_code"
+                onChange={[Function]}
+                validatorListener={[Function]}
+                validators={Array []}
+                value={undefined}
+/>,
+              <br />,
+              <TextValidator
+                errorMessages="error"
+                floatingLabelText="City"
+                id="city"
+                name="city"
+                onChange={[Function]}
+                validatorListener={[Function]}
+                validators={Array []}
+                value={undefined}
+/>,
+              <br />,
+              <TextValidator
+                errorMessages="error"
+                floatingLabelText="Age"
+                id="age"
+                name="age"
+                onChange={[Function]}
+                validatorListener={[Function]}
+                validators={Array []}
+                value={undefined}
+/>,
+              <br />,
+              <TextValidator
+                errorMessages="error"
+                floatingLabelText="Gender"
+                id="gender"
+                name="gender"
+                onChange={[Function]}
+                validatorListener={[Function]}
+                validators={Array []}
+                value={undefined}
+/>,
+              <br />,
+              <RaisedButton
+                disabled={false}
+                fullWidth={false}
+                label="Account updaten"
+                labelPosition="after"
+                primary={false}
+                secondary={false}
+                style={
+                                Object {
+                                                "marginBottom": "10px",
+                                                "marginTop": "50px",
+                                              }
+                }
+                type="submit"
+/>,
+            ],
+            "onError": [Function],
+            "onSubmit": [Function],
+          },
+          "ref": "form",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Update your account",
+              },
+              "ref": null,
+              "rendered": "Update your account",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Please fix the shown errors",
+                "className": "hidden",
+                "id": "errorLabel",
+              },
+              "ref": null,
+              "rendered": "Please fix the shown errors",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "errorMessages": "error",
+                "floatingLabelText": "Vorname",
+                "id": "firstname",
+                "name": "firstname",
+                "onChange": [Function],
+                "validatorListener": [Function],
+                "validators": Array [],
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "errorMessages": "error",
+                "floatingLabelText": "Nachname",
+                "id": "lastname",
+                "name": "lastname",
+                "onChange": [Function],
+                "validatorListener": [Function],
+                "validators": Array [],
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "errorMessages": "error",
+                "floatingLabelText": "Address",
+                "id": "address",
+                "name": "address",
+                "onChange": [Function],
+                "validatorListener": [Function],
+                "validators": Array [],
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "errorMessages": "error",
+                "floatingLabelText": "Postal Code",
+                "id": "postal_code",
+                "name": "postal_code",
+                "onChange": [Function],
+                "validatorListener": [Function],
+                "validators": Array [],
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "errorMessages": "error",
+                "floatingLabelText": "City",
+                "id": "city",
+                "name": "city",
+                "onChange": [Function],
+                "validatorListener": [Function],
+                "validators": Array [],
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "errorMessages": "error",
+                "floatingLabelText": "Age",
+                "id": "age",
+                "name": "age",
+                "onChange": [Function],
+                "validatorListener": [Function],
+                "validators": Array [],
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "errorMessages": "error",
+                "floatingLabelText": "Gender",
+                "id": "gender",
+                "name": "gender",
+                "onChange": [Function],
+                "validatorListener": [Function],
+                "validators": Array [],
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "disabled": false,
+                "fullWidth": false,
+                "label": "Account updaten",
+                "labelPosition": "after",
+                "primary": false,
+                "secondary": false,
+                "style": Object {
+                  "marginBottom": "10px",
+                  "marginTop": "50px",
+                },
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

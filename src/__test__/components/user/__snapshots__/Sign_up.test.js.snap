@@ -1,0 +1,989 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Signup page correctly when the loaded state is true 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SignUp
+    app={
+        Object {
+            "loaded": true,
+          }
+    }
+    user={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Paper
+        circle={false}
+        className="common-paper"
+        rounded={true}
+        transitionEnabled={true}
+        zDepth={1}
+>
+        <ValidatorForm
+                onError={[Function]}
+                onSubmit={[Function]}
+        >
+                <h2>
+                        Create your Account
+                </h2>
+                <h3
+                        className="hidden"
+                        id="errorLabel"
+                >
+                         Email vergeben oder Password zu kurz (min. 8 Zeichen)
+                </h3>
+                <TextValidator
+                        errorMessages={
+                                Array [
+                                        "this field is required",
+                                        "email is not valid",
+                                      ]
+                        }
+                        floatingLabelText="Email"
+                        id="email"
+                        name="email"
+                        onChange={[Function]}
+                        validatorListener={[Function]}
+                        validators={
+                                Array [
+                                        "required",
+                                        "isEmail",
+                                      ]
+                        }
+                        value=""
+                />
+                <br />
+                <TextValidator
+                        errorMessages={
+                                Array [
+                                        "this field is required",
+                                      ]
+                        }
+                        floatingLabelText="Password"
+                        id="password"
+                        name="password"
+                        onChange={[Function]}
+                        type="password"
+                        validatorListener={[Function]}
+                        validators={
+                                Array [
+                                        "required",
+                                      ]
+                        }
+                        value=""
+                />
+                <br />
+                <TextValidator
+                        errorMessages={
+                                Array [
+                                        "password mismatch",
+                                        "this field is required",
+                                      ]
+                        }
+                        floatingLabelText="Repeat password"
+                        id="password_confirmation"
+                        name="repeatPassword"
+                        onChange={[Function]}
+                        type="password"
+                        validatorListener={[Function]}
+                        validators={
+                                Array [
+                                        "isPasswordMatch",
+                                        "required",
+                                      ]
+                        }
+                        value=""
+                />
+                <br />
+                <RaisedButton
+                        disabled={false}
+                        fullWidth={false}
+                        label="Account alegen"
+                        labelPosition="after"
+                        primary={false}
+                        secondary={false}
+                        style={
+                                Object {
+                                        "marginBottom": "10px",
+                                        "marginTop": "50px",
+                                      }
+                        }
+                        type="submit"
+                />
+        </ValidatorForm>
+</Paper>,
+      "className": "container",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ValidatorForm
+          onError={[Function]}
+          onSubmit={[Function]}
+>
+          <h2>
+                    Create your Account
+          </h2>
+          <h3
+                    className="hidden"
+                    id="errorLabel"
+          >
+                     Email vergeben oder Password zu kurz (min. 8 Zeichen)
+          </h3>
+          <TextValidator
+                    errorMessages={
+                              Array [
+                                        "this field is required",
+                                        "email is not valid",
+                                      ]
+                    }
+                    floatingLabelText="Email"
+                    id="email"
+                    name="email"
+                    onChange={[Function]}
+                    validatorListener={[Function]}
+                    validators={
+                              Array [
+                                        "required",
+                                        "isEmail",
+                                      ]
+                    }
+                    value=""
+          />
+          <br />
+          <TextValidator
+                    errorMessages={
+                              Array [
+                                        "this field is required",
+                                      ]
+                    }
+                    floatingLabelText="Password"
+                    id="password"
+                    name="password"
+                    onChange={[Function]}
+                    type="password"
+                    validatorListener={[Function]}
+                    validators={
+                              Array [
+                                        "required",
+                                      ]
+                    }
+                    value=""
+          />
+          <br />
+          <TextValidator
+                    errorMessages={
+                              Array [
+                                        "password mismatch",
+                                        "this field is required",
+                                      ]
+                    }
+                    floatingLabelText="Repeat password"
+                    id="password_confirmation"
+                    name="repeatPassword"
+                    onChange={[Function]}
+                    type="password"
+                    validatorListener={[Function]}
+                    validators={
+                              Array [
+                                        "isPasswordMatch",
+                                        "required",
+                                      ]
+                    }
+                    value=""
+          />
+          <br />
+          <RaisedButton
+                    disabled={false}
+                    fullWidth={false}
+                    label="Account alegen"
+                    labelPosition="after"
+                    primary={false}
+                    secondary={false}
+                    style={
+                              Object {
+                                        "marginBottom": "10px",
+                                        "marginTop": "50px",
+                                      }
+                    }
+                    type="submit"
+          />
+</ValidatorForm>,
+        "circle": false,
+        "className": "common-paper",
+        "rounded": true,
+        "transitionEnabled": true,
+        "zDepth": 1,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <h2>
+              Create your Account
+</h2>,
+            <h3
+              className="hidden"
+              id="errorLabel"
+>
+               Email vergeben oder Password zu kurz (min. 8 Zeichen)
+</h3>,
+            <TextValidator
+              errorMessages={
+                            Array [
+                                          "this field is required",
+                                          "email is not valid",
+                                        ]
+              }
+              floatingLabelText="Email"
+              id="email"
+              name="email"
+              onChange={[Function]}
+              validatorListener={[Function]}
+              validators={
+                            Array [
+                                          "required",
+                                          "isEmail",
+                                        ]
+              }
+              value=""
+/>,
+            <br />,
+            <TextValidator
+              errorMessages={
+                            Array [
+                                          "this field is required",
+                                        ]
+              }
+              floatingLabelText="Password"
+              id="password"
+              name="password"
+              onChange={[Function]}
+              type="password"
+              validatorListener={[Function]}
+              validators={
+                            Array [
+                                          "required",
+                                        ]
+              }
+              value=""
+/>,
+            <br />,
+            <TextValidator
+              errorMessages={
+                            Array [
+                                          "password mismatch",
+                                          "this field is required",
+                                        ]
+              }
+              floatingLabelText="Repeat password"
+              id="password_confirmation"
+              name="repeatPassword"
+              onChange={[Function]}
+              type="password"
+              validatorListener={[Function]}
+              validators={
+                            Array [
+                                          "isPasswordMatch",
+                                          "required",
+                                        ]
+              }
+              value=""
+/>,
+            <br />,
+            <RaisedButton
+              disabled={false}
+              fullWidth={false}
+              label="Account alegen"
+              labelPosition="after"
+              primary={false}
+              secondary={false}
+              style={
+                            Object {
+                                          "marginBottom": "10px",
+                                          "marginTop": "50px",
+                                        }
+              }
+              type="submit"
+/>,
+          ],
+          "onError": [Function],
+          "onSubmit": [Function],
+        },
+        "ref": "form",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Create your Account",
+            },
+            "ref": null,
+            "rendered": "Create your Account",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " Email vergeben oder Password zu kurz (min. 8 Zeichen)",
+              "className": "hidden",
+              "id": "errorLabel",
+            },
+            "ref": null,
+            "rendered": " Email vergeben oder Password zu kurz (min. 8 Zeichen)",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "errorMessages": Array [
+                "this field is required",
+                "email is not valid",
+              ],
+              "floatingLabelText": "Email",
+              "id": "email",
+              "name": "email",
+              "onChange": [Function],
+              "validatorListener": [Function],
+              "validators": Array [
+                "required",
+                "isEmail",
+              ],
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "errorMessages": Array [
+                "this field is required",
+              ],
+              "floatingLabelText": "Password",
+              "id": "password",
+              "name": "password",
+              "onChange": [Function],
+              "type": "password",
+              "validatorListener": [Function],
+              "validators": Array [
+                "required",
+              ],
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "errorMessages": Array [
+                "password mismatch",
+                "this field is required",
+              ],
+              "floatingLabelText": "Repeat password",
+              "id": "password_confirmation",
+              "name": "repeatPassword",
+              "onChange": [Function],
+              "type": "password",
+              "validatorListener": [Function],
+              "validators": Array [
+                "isPasswordMatch",
+                "required",
+              ],
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "fullWidth": false,
+              "label": "Account alegen",
+              "labelPosition": "after",
+              "primary": false,
+              "secondary": false,
+              "style": Object {
+                "marginBottom": "10px",
+                "marginTop": "50px",
+              },
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Paper
+          circle={false}
+          className="common-paper"
+          rounded={true}
+          transitionEnabled={true}
+          zDepth={1}
+>
+          <ValidatorForm
+                    onError={[Function]}
+                    onSubmit={[Function]}
+          >
+                    <h2>
+                              Create your Account
+                    </h2>
+                    <h3
+                              className="hidden"
+                              id="errorLabel"
+                    >
+                               Email vergeben oder Password zu kurz (min. 8 Zeichen)
+                    </h3>
+                    <TextValidator
+                              errorMessages={
+                                        Array [
+                                                  "this field is required",
+                                                  "email is not valid",
+                                                ]
+                              }
+                              floatingLabelText="Email"
+                              id="email"
+                              name="email"
+                              onChange={[Function]}
+                              validatorListener={[Function]}
+                              validators={
+                                        Array [
+                                                  "required",
+                                                  "isEmail",
+                                                ]
+                              }
+                              value=""
+                    />
+                    <br />
+                    <TextValidator
+                              errorMessages={
+                                        Array [
+                                                  "this field is required",
+                                                ]
+                              }
+                              floatingLabelText="Password"
+                              id="password"
+                              name="password"
+                              onChange={[Function]}
+                              type="password"
+                              validatorListener={[Function]}
+                              validators={
+                                        Array [
+                                                  "required",
+                                                ]
+                              }
+                              value=""
+                    />
+                    <br />
+                    <TextValidator
+                              errorMessages={
+                                        Array [
+                                                  "password mismatch",
+                                                  "this field is required",
+                                                ]
+                              }
+                              floatingLabelText="Repeat password"
+                              id="password_confirmation"
+                              name="repeatPassword"
+                              onChange={[Function]}
+                              type="password"
+                              validatorListener={[Function]}
+                              validators={
+                                        Array [
+                                                  "isPasswordMatch",
+                                                  "required",
+                                                ]
+                              }
+                              value=""
+                    />
+                    <br />
+                    <RaisedButton
+                              disabled={false}
+                              fullWidth={false}
+                              label="Account alegen"
+                              labelPosition="after"
+                              primary={false}
+                              secondary={false}
+                              style={
+                                        Object {
+                                                  "marginBottom": "10px",
+                                                  "marginTop": "50px",
+                                                }
+                              }
+                              type="submit"
+                    />
+          </ValidatorForm>
+</Paper>,
+        "className": "container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <ValidatorForm
+            onError={[Function]}
+            onSubmit={[Function]}
+>
+            <h2>
+                        Create your Account
+            </h2>
+            <h3
+                        className="hidden"
+                        id="errorLabel"
+            >
+                         Email vergeben oder Password zu kurz (min. 8 Zeichen)
+            </h3>
+            <TextValidator
+                        errorMessages={
+                                    Array [
+                                                "this field is required",
+                                                "email is not valid",
+                                              ]
+                        }
+                        floatingLabelText="Email"
+                        id="email"
+                        name="email"
+                        onChange={[Function]}
+                        validatorListener={[Function]}
+                        validators={
+                                    Array [
+                                                "required",
+                                                "isEmail",
+                                              ]
+                        }
+                        value=""
+            />
+            <br />
+            <TextValidator
+                        errorMessages={
+                                    Array [
+                                                "this field is required",
+                                              ]
+                        }
+                        floatingLabelText="Password"
+                        id="password"
+                        name="password"
+                        onChange={[Function]}
+                        type="password"
+                        validatorListener={[Function]}
+                        validators={
+                                    Array [
+                                                "required",
+                                              ]
+                        }
+                        value=""
+            />
+            <br />
+            <TextValidator
+                        errorMessages={
+                                    Array [
+                                                "password mismatch",
+                                                "this field is required",
+                                              ]
+                        }
+                        floatingLabelText="Repeat password"
+                        id="password_confirmation"
+                        name="repeatPassword"
+                        onChange={[Function]}
+                        type="password"
+                        validatorListener={[Function]}
+                        validators={
+                                    Array [
+                                                "isPasswordMatch",
+                                                "required",
+                                              ]
+                        }
+                        value=""
+            />
+            <br />
+            <RaisedButton
+                        disabled={false}
+                        fullWidth={false}
+                        label="Account alegen"
+                        labelPosition="after"
+                        primary={false}
+                        secondary={false}
+                        style={
+                                    Object {
+                                                "marginBottom": "10px",
+                                                "marginTop": "50px",
+                                              }
+                        }
+                        type="submit"
+            />
+</ValidatorForm>,
+          "circle": false,
+          "className": "common-paper",
+          "rounded": true,
+          "transitionEnabled": true,
+          "zDepth": 1,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Create your Account
+</h2>,
+              <h3
+                className="hidden"
+                id="errorLabel"
+>
+                 Email vergeben oder Password zu kurz (min. 8 Zeichen)
+</h3>,
+              <TextValidator
+                errorMessages={
+                                Array [
+                                                "this field is required",
+                                                "email is not valid",
+                                              ]
+                }
+                floatingLabelText="Email"
+                id="email"
+                name="email"
+                onChange={[Function]}
+                validatorListener={[Function]}
+                validators={
+                                Array [
+                                                "required",
+                                                "isEmail",
+                                              ]
+                }
+                value=""
+/>,
+              <br />,
+              <TextValidator
+                errorMessages={
+                                Array [
+                                                "this field is required",
+                                              ]
+                }
+                floatingLabelText="Password"
+                id="password"
+                name="password"
+                onChange={[Function]}
+                type="password"
+                validatorListener={[Function]}
+                validators={
+                                Array [
+                                                "required",
+                                              ]
+                }
+                value=""
+/>,
+              <br />,
+              <TextValidator
+                errorMessages={
+                                Array [
+                                                "password mismatch",
+                                                "this field is required",
+                                              ]
+                }
+                floatingLabelText="Repeat password"
+                id="password_confirmation"
+                name="repeatPassword"
+                onChange={[Function]}
+                type="password"
+                validatorListener={[Function]}
+                validators={
+                                Array [
+                                                "isPasswordMatch",
+                                                "required",
+                                              ]
+                }
+                value=""
+/>,
+              <br />,
+              <RaisedButton
+                disabled={false}
+                fullWidth={false}
+                label="Account alegen"
+                labelPosition="after"
+                primary={false}
+                secondary={false}
+                style={
+                                Object {
+                                                "marginBottom": "10px",
+                                                "marginTop": "50px",
+                                              }
+                }
+                type="submit"
+/>,
+            ],
+            "onError": [Function],
+            "onSubmit": [Function],
+          },
+          "ref": "form",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Create your Account",
+              },
+              "ref": null,
+              "rendered": "Create your Account",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " Email vergeben oder Password zu kurz (min. 8 Zeichen)",
+                "className": "hidden",
+                "id": "errorLabel",
+              },
+              "ref": null,
+              "rendered": " Email vergeben oder Password zu kurz (min. 8 Zeichen)",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "errorMessages": Array [
+                  "this field is required",
+                  "email is not valid",
+                ],
+                "floatingLabelText": "Email",
+                "id": "email",
+                "name": "email",
+                "onChange": [Function],
+                "validatorListener": [Function],
+                "validators": Array [
+                  "required",
+                  "isEmail",
+                ],
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "errorMessages": Array [
+                  "this field is required",
+                ],
+                "floatingLabelText": "Password",
+                "id": "password",
+                "name": "password",
+                "onChange": [Function],
+                "type": "password",
+                "validatorListener": [Function],
+                "validators": Array [
+                  "required",
+                ],
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "errorMessages": Array [
+                  "password mismatch",
+                  "this field is required",
+                ],
+                "floatingLabelText": "Repeat password",
+                "id": "password_confirmation",
+                "name": "repeatPassword",
+                "onChange": [Function],
+                "type": "password",
+                "validatorListener": [Function],
+                "validators": Array [
+                  "isPasswordMatch",
+                  "required",
+                ],
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "disabled": false,
+                "fullWidth": false,
+                "label": "Account alegen",
+                "labelPosition": "after",
+                "primary": false,
+                "secondary": false,
+                "style": Object {
+                  "marginBottom": "10px",
+                  "marginTop": "50px",
+                },
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`spinner should be rendered if the app loaded state is false 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SignUp
+    app={
+        Object {
+            "loaded": false,
+          }
+    }
+    user={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): "Loading...",
+  Symbol(enzyme.__nodes__): Array [
+    "Loading...",
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
